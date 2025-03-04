@@ -1,7 +1,7 @@
-const Clock = ({ totalTime, minutes, seconds }) =>{
+const Clock = ({ totalTime, minutes, seconds, text }) =>{
     return(
         <div>
-            <h2>{ totalTime }</h2>
+            <h2>{ text } { totalTime }</h2>
             <p>{ minutes }:{ seconds }</p>
         </div>    
     );
